@@ -1,0 +1,133 @@
+*{box-sizing: border-box;
+}
+body{   
+    margin:0;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.hero{
+    background-color: #e8bfa7;
+}
+header{
+    font-size: 48px;
+    font-weight: bold;
+    color:#1f0b00;
+    font-family: Helvetica, sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #1f0b00;
+}
+.intro{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+.sign{
+    background-color: #1f0b00;
+    color:#e8bfa7;
+}
+.paragraphs{
+    max-width: 200px;
+    color:#1f0b00;
+}
+.top-image{
+    width: 400px;
+    height: auto;
+}
+
+.flight-cont{
+    background-color: #00121f;
+}
+
+.flight-div{
+    display: flex;
+    max-width: 1100px;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+
+.flight-div div{
+    max-width: 200px;
+}
+.flight-div div>img{
+    width: 100px;
+    border-radius: 20%;
+}
+.flight-div div>p{
+    color: #b0d9f5;
+}
+.flights>h2{
+    color:#b0d9f5;
+    text-align: center;
+}
+
+.testimonials{
+    background-color: #e8bfa7;
+}
+.testimonials>h2{
+    text-align: center;
+}
+.testimonial-images{
+    display: flex;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.testimonial-images>div{
+    display: flex;
+    width: 300px;
+}
+.testimonial-images div>img{
+    width: 50px;
+    height: auto;
+}
+h5{
+    margin-top: 2px;
+}
+.call{
+    background-color:#00121f;
+    display: flex;
+    justify-content: space-evenly;
+    color:#b0d9f5;
+    font-weight: 600;
+    line-height: 30px;
+    align-items: baseline;
+}
+.call>button{
+    max-height: 40px;
+    background-color: #b0d9f5;
+    color:#1f0b00;
+}
+
+
+.footer{
+    margin-top: auto;
+    background-color: black;
+    color:#b0d9f5;
+    text-align: center;
+}

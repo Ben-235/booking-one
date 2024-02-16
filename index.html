@@ -7,23 +7,28 @@
         <link href="styles.css" rel="stylesheet"/>
     </head>
     <body>
-        <div class="nav">
+        <div class="hero">
+         <div class="nav">
             <header>FlyKe</header>
             <ul>
-                <li>Flights</li>
-                <li>Hotels</li>
-                <li>Cars</li>
+                <a href="#"> <li>Flights</li></a>
+                <a href="#"> <li>Hotels</li> </a>
+                <a href="#"> <li>Cars</li> </a>
             </ul>
-        </div>
-        <div class="intro">
+         </div>
+         <div class="intro">
             <div class="paragraphs">
               <p class="first">Get yourself booked for all international, regional and local flights.</p>
               <p class="second">with years of experience in the industry, Flyke stays the most affordable and reliable booking platform and airline in the region.</p>
               <button class="sign" id="sign">Book Now</button>
             </div>
-            <img src="images/top.jpg"/>
+            <img class="top-image" src="images/top.jpg"/>
+         </div>
         </div>
-        <div class="flights">
+        <div class="flight-cont">
+        <section class="flights">
+            <h2>OUR FLIGHTS</h2>
+            <div class="flight-div">
             <div class="international">
                 <img src="images/international.jpg">
                 <p>From Newyork to Sydney we connect you around the globe</p>
@@ -40,9 +45,12 @@
                 <img src="images/fun.jpg">
                 <p>Experience a thrilling experience flying all around the cities.</p>
             </div>
+            </div>
+        </section>
         </div>
-        <div class="testimonials">
-            <div>
+        <section class="testimonials">
+            <h2>TESTIMONIALS</h2>
+            <div class="testimonial-images">
                 <div>
                     <div>
                     <img src="images/womanofcolor.jpg"/>
@@ -65,12 +73,15 @@
                     <p>Now that was business class. Flyke is the way to go.</p>
                 </div>
             </div>
-        </div>
-        <div class="call">
+        </section>
+        <section class="call">
             <p> It's time<br>
                 Book your first flight with us
             </p>
             <button>Book now</button>
-        </div>
+        </section>
+        <footer class="footer">
+            <p>Copyright Ben-235</p>  
+        </footer>
     </body>
 </html>
