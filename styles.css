@@ -9,6 +9,7 @@ body{
 }
 .hero{
     background-color: #e8bfa7;
+    padding-bottom: 20px;
 }
 header{
     font-size: 48px;
@@ -44,8 +45,8 @@ a{
     flex-wrap: wrap;
 }
 .sign{
-    background-color: #1f0b00;
-    color:#e8bfa7;
+    color:#1f0b00;
+    background-color: #e8bfa7;
 }
 .paragraphs{
     max-width: 200px;
