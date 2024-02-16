@@ -45,8 +45,9 @@ a{
     flex-wrap: wrap;
 }
 .sign{
-    color:#1f0b00;
-    background-color: #e8bfa7;
+    color:#e8bfa7;
+    background-color:#1f0b00;
+    margin-bottom:10px;
 }
 .paragraphs{
     max-width: 200px;
